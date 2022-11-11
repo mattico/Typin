@@ -36,7 +36,7 @@
         /// <summary>
         /// Command input history.
         /// </summary>
-        public IInputHistoryProvider InputHistory { get; } = new InputHistoryProvider();
+        public IInputHistoryProvider InputHistory { get; set; } = new InputHistoryProvider();
 
         /// <summary>
         /// User defined shortcuts.
